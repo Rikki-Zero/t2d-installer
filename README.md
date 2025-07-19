@@ -84,13 +84,13 @@ sudo systemctl status t2d@my-client
 修改完成后，您可以通过init.d启动T2D服务：
 
 ```bash
-sudo service t2d start my-client  # 或 sudo /etc/init.d/t2d start my-client
+sudo /etc/init.d/t2d t2d start my-client
 ```
 
 查看服务状态：
 
 ```bash
-sudo service t2d status my-client # 或 sudo /etc/init.d/t2d status my-client
+sudo /etc/init.d/t2d t2d status my-client
 ```
 
 ## 💡 Bash 自动补全 (仅Systemd模式)
