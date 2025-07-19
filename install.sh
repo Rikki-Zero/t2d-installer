@@ -319,18 +319,18 @@ show_post_install_info() {
     echo
     echo -e "${GREEN}使用方法:${NC}"
     echo "  1. 复制配置模板:"
-    echo "     cp $CONFIG_DIR/client.example $CONFIG_DIR/my-client.json"
-    echo "     cp $CONFIG_DIR/server.example $CONFIG_DIR/my-server.json"
+    echo "     cp $CONFIG_DIR/client.example $CONFIG_DIR/myclient.json"
+    echo "     cp $CONFIG_DIR/server.example $CONFIG_DIR/myserver.json"
     echo
     echo "  2. 编辑配置文件:"
-    echo "     nano $CONFIG_DIR/my-client.json"
+    echo "     nano $CONFIG_DIR/myclient.json"
     echo
     echo "  3. 启动服务:"
-    echo "     systemctl start t2d@my-client"
-    echo "     systemctl enable t2d@my-client"
+    echo "     systemctl start t2d@myclient"
+    echo "     systemctl enable t2d@myclient"
     echo
     echo "  4. 查看状态:"
-    echo "     systemctl status t2d@my-client"
+    echo "     systemctl status t2d@myclient"
     echo
     echo -e "${GREEN}自动补全:${NC}"
     echo "  重新登录或运行 'source /etc/bash_completion.d/t2d' 启用补全功能"

@@ -36,28 +36,28 @@ curl -fsSL https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/refs/heads
 例如，创建一个客户端配置文件：
 
 ```bash
-sudo cp /etc/t2d/client.example /etc/t2d/my-client.json
-sudo nano /etc/t2d/my-client.json
+sudo cp /etc/t2d/client.example /etc/t2d/myclient.json
+sudo nano /etc/t2d/myclient.json
 ```
 
 修改完成后，您可以通过systemd启动T2D服务：
 
 ```bash
-sudo systemctl start t2d@my-client
-sudo systemctl enable t2d@my-client # 设置开机自启
+sudo systemctl start t2d@myclient
+sudo systemctl enable t2d@myclient # 设置开机自启
 ```
 
 查看服务状态：
 
 ```bash
-sudo systemctl status t2d@my-client
+sudo systemctl status t2d@myclient
 ```
 
 ## 💡 Bash 自动补全
 
 安装脚本会自动设置bash补全。在安装完成后，重新登录您的shell，或手动运行 `source /etc/bash_completion.d/t2d` 来启用补全功能。
 
-之后，当您输入 `systemctl start t2d@` 并按下 `Tab` 键时，系统会自动补全 `/etc/t2d/` 目录下的 `.json` 配置文件名，例如 `t2d@my-client.service`。
+之后，当您输入 `systemctl start t2d@` 并按下 `Tab` 键时，系统会自动补全 `/etc/t2d/` 目录下的 `.json` 配置文件名，例如 `t2d@myclient.service`。
 
 ## 📄 许可证
 
