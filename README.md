@@ -101,4 +101,4 @@ Systemd安装脚本会自动设置bash补全。在安装完成后，重新登录
 
 ## 📄 许可证
 
-本项目采用 [Apache License 2.0](LICENSE) 许可证。 
+本项目采用 [AGPL-3.0 license](LICENSE) 许可证。 
