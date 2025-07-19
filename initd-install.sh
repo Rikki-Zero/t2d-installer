@@ -287,12 +287,13 @@ show_post_install_info() {
     echo "     nano $CONFIG_DIR/my-client.json"
     echo
     echo "  3. 启动服务:"
-    echo "     service t2d start my-client" # 或 /etc/init.d/t2d start my-client
+    echo "     /etc/init.d/t2d start my-client" # 或 /etc/init.d/t2d start my-client
     echo
     echo "  4. 查看状态:"
-    echo "     service t2d status my-client" # 或 /etc/init.d/t2d status my-client
+    echo "     /etc/init.d/t2d status my-client" # 或 /etc/init.d/t2d status my-client
     echo
     echo -e "${YELLOW}注意: 请根据实际需求修改配置文件中的服务器地址和密码${NC}"
+    echo -e "${YELLOW}另外，由于 init.d 模式没有实现对 log 的管理 ，请使用配置模板中的 log_path 配置日志路径，自行管理。${NC}"
 }
 
 # 主函数
