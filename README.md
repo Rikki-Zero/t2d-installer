@@ -20,13 +20,13 @@
 ## 📥 安装
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/main/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/refs/heads/Stable/install.sh | sudo bash
 ```
 
 ## 🗑️ 卸载
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/main/uninstall.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/refs/heads/Stable/uninstall.sh | sudo bash
 ```
 
 ## ⚙️ 配置

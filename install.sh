@@ -22,9 +22,9 @@ SERVICE_FILE="/etc/systemd/system/t2d@.service"
 COMPLETION_FILE="/etc/bash_completion.d/t2d"
 
 # 模板文件URL
-SERVICE_FILE_URL="https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/main/t2d@.service"
-CLIENT_EXAMPLE_URL="https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/main/template/client.example"
-SERVER_EXAMPLE_URL="https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/main/template/server.example"
+SERVICE_FILE_URL="https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/refs/heads/Stable/t2d%40.service"
+CLIENT_EXAMPLE_URL="https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/refs/heads/Stable/template/client.example"
+SERVER_EXAMPLE_URL="https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/refs/heads/Stable/template/server.example"
 
 # 日志函数
 log_info() {
