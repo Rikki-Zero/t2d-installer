@@ -1,0 +1,12 @@
+[Unit]
+Description=T2D Service - %I
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/bin/t2d -config /etc/t2d/%I.json
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
