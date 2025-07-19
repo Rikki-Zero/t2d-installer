@@ -1,5 +1,5 @@
 [Unit]
-Description=T2D Service - %I
+Description=T2D Service - %i
 After=network.target
 
 [Service]
