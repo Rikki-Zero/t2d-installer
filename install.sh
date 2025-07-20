@@ -249,6 +249,8 @@ create_config() {
 # 创建bash补全脚本
 create_completion() {
     log_info "创建bash补全脚本..."
+
+    mkdir -p "/etc/bash_completion.d"
     
     cat > "$COMPLETION_FILE" << 'EOF'
 # T2D systemctl completion for t2d@ services
