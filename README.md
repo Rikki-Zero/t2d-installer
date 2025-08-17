@@ -28,7 +28,7 @@
 适用于大多数现代Linux发行版（如Ubuntu 16.04+, Debian 8+, CentOS 7+）。
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/refs/heads/Stable/install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/Rikka-Sei/t2d-installer/refs/heads/Stable/install.sh | sudo bash
 ```
 
 ### Init.d 模式
@@ -36,7 +36,7 @@ curl -fsSL https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/refs/heads
 适用于较旧的Linux发行版或没有Systemd的环境。
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/refs/heads/Stable/initd-install.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/Rikka-Sei/t2d-installer/refs/heads/Stable/initd-install.sh | sudo bash
 ```
 
 ## 🗑️ 卸载
@@ -44,13 +44,13 @@ curl -fsSL https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/refs/heads
 ### Systemd 模式 (对应Systemd安装)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/refs/heads/Stable/uninstall.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/Rikka-Sei/t2d-installer/refs/heads/Stable/uninstall.sh | sudo bash
 ```
 
 ### Init.d 模式 (对应Init.d安装)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Rikki-Zero/t2d-installer/refs/heads/Stable/initd-uninstall.sh | sudo bash
+curl -fsSL https://raw.githubusercontent.com/Rikka-Sei/t2d-installer/refs/heads/Stable/initd-uninstall.sh | sudo bash
 ```
 
 ## ⚙️ 配置
